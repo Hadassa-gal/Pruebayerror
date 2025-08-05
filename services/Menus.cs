@@ -126,11 +126,11 @@ namespace TorneoManager
                 {
                     case 1:
                         var context = DbContextFactory.Create();
-                        var personas = new Player("Neymar", "Jr", 32, "1234567890", "CC", "Brasil", 1, "delantero");
+                        var personas = new Player("Neymar", "Jr", 32, "1234567890", "CC", "Brasil");
                         //PlayerRepository.Crear(personas);
-                        context.Player.Add(personas);
+                        context.Person.Add(personas);
                         context.SaveChanges();
-                        foreach (var persona in context.Player)
+                        foreach (var persona in context.Person)
                         {
                             Console.WriteLine($"Nombre {persona.Name} {persona.LastName}, Edad: {persona.Age}, Document: {persona.DocumentType}.{persona.DocumentNumber}");
                         }
