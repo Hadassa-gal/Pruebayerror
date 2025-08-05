@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pruebayerror")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b08fae1a57d232b622be3a5fcc8dd08fc28dbb26")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43bfe23676661e9fee5973b3ef25d9abdf469efe")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pruebayerror")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pruebayerror")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
